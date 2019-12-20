@@ -49,3 +49,4 @@ print(mi_lista)
 # Tuplas. Las tuplas son listas inmutables, no se pueden modificar después de su cración.
 # Tampoco se permiten búsquedas, pero sí se permite comprobar si un elemento se encuentra en la tupla
 # Una tupla se va a ejecutar más rápido que una lista, además de que ocupa menos espacio.
+# hola
