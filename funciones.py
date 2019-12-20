@@ -35,3 +35,17 @@ print(res)
 
 #Listas. (Arrays, vectores)
 # En python las listas permiten almacenar varios valores y diferentes tipos de valores
+mi_lista = ["Hola","manzana","calculadora", 3.14159, 18]
+mi_lista.append("Palabra final")            # Agrega un elemento al final de la lista
+mi_lista.insert(0,"Muse")                   # Agregamos un elemento en la posición de índice 0 (se empieza a contar en cero)
+mi_lista.remove("manzana")                  # Para eliminar un elemento de la lista. También se puede escribir el índice.
+mi_lista.pop()                              # Elimina el último elemento de la lista
+print (mi_lista)
+print(mi_lista.index("Muse"))               # Para mostrar en qué índice se encuentra el elemento "Muse"
+print("Muse" in mi_lista)                   # Devuelve True o False según si el elemento "Muse" se encuentra en "mi_lista"
+mi_lista *= 3                               # Repite 3 veces los elementos de la lista
+print(mi_lista)
+
+# Tuplas. Las tuplas son listas inmutables, no se pueden modificar después de su cración.
+# Tampoco se permiten búsquedas, pero sí se permite comprobar si un elemento se encuentra en la tupla
+# Una tupla se va a ejecutar más rápido que una lista, además de que ocupa menos espacio.
