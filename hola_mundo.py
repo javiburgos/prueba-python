@@ -1,6 +1,6 @@
 print ("Ey wenas a todos")
 
-num = input("Input a number: ")
+num = input("Introduce un número: ")
 print("You entered", num)
 
 print ("¿Esto funciona?")
